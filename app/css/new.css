@@ -1,0 +1,47 @@
+header.masthead{
+    background-image: url(../img/landingpgwallpaper.png);
+}
+#quote{
+  color: #212529;
+  font-family: 'Courgette', cursive;
+  font-size: 1.3em;
+}
+.intro-heading{
+  font-size: 50px!important;
+  font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif!important;
+}
+section#contact{
+  background-image: url(../img/contactimg.jpg);
+}
+@media (min-width: 576px){
+  .carousel-item{
+    height: auto!important;
+  }
+}
+@media (min-width: 992px){
+  .carousel-item{
+    height: 500px!important;
+  }
+}
+
+#services{
+  padding-bottom: 0px!important;
+}
+#team{
+  padding-top: 20px!important;
+}
+#dropdownMenuButton{
+  background-color: transparent!important;
+  border-color: transparent!important;
+  border: none!important;
+}
+.dropdown-menu{
+  border: none!important;
+}
+.dropdown-item{
+  text-transform: none!important;
+  padding-left: 12px!important;
+}
+#testimonial1,#testName1,#testimonial2,#testName2,#testimonial3,#testName3{
+  color: black!important;
+}
